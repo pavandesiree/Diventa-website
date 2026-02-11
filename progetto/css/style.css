@@ -35,3 +35,13 @@ main .hero h4 {
     letter-spacing: -.8px;
     line-height: 109%;
 }
+
+header {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 245 80 / var(--tw-bg-opacity, 1));
+    border-radius: 9999px;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
