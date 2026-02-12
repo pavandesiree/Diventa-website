@@ -128,6 +128,19 @@ p {
     filter: brightness(90%);
 }
 
+.ape-container {
+    width: 375px;
+    height: 720px;
+    overflow: hidden;
+}
+
+.ape {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
     h1 {
