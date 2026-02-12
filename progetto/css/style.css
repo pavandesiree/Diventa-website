@@ -14,17 +14,20 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    padding-top: 110px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-container {
     color: white;
-    width: 100%;
     height: 76vh;
     display: flex;
+    max-width: 1300px;
 }
 
 .hero {
-    margin: auto 15px 60px 15px;
+    margin: auto 35px 60px 35px;
 }
 
 h1 {
@@ -51,53 +54,55 @@ h4 {
 }
 
 header {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 245 80 / var(--tw-bg-opacity, 1));
+    background-color: rgb(255 245 80);
     border-radius: 9999px;
-    padding-bottom: .5rem;
-    padding-top: .5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: .5rem 2rem;
     margin: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    right: 20px;
+    z-index: 1000;
 }
 
 .menu-desktop {
     display: none;
 }
 
-.spazio-consulenze-container {
-    height: 1000px;
-}
-
 /* Tablet */
 @media (min-width: 768px) {
     h1 {
-        font-size: 64px;
+        font-size: 72px;
+        line-height: 85%;
     }
 
     h3 {
         font-size: 26px;
+        letter-spacing: 0;
+        line-height: 98%;
     }
 
     h4 {
         font-size: 20px;
+        letter-spacing: -1px;
     }
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
     h1 {
-        font-size: 72px;
+        font-size: 104px;
+        letter-spacing: -2.08px;
+        line-height: 100%;
     }
 
     h3 {
         font-size: 32px;
+        line-height: 100%;
     }
 
     .menu-mobile {
@@ -118,5 +123,12 @@ header {
 
     .home {
         text-decoration: underline;
+    }
+
+    .hero-paragraphs-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        gap: 50px;
     }
 }
