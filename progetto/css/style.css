@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,6 +18,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 638px;
+    padding: 250px 15px 40px 15px;
+    color:white;
 }
 
 header {
@@ -30,18 +33,13 @@ header {
     height: 4rem;
     position: fixed;
     top: 0px;
-    left: 20px;
-    right: 20px;
+    left: 15px;
+    right: 15px;
     z-index: 1000;
 }
 
 .menu-desktop {
     display: none;
-}
-
-.hero {
-    color: white;
-    margin: 250px 15px 40px 15px;
 }
 
 h1 {
@@ -85,15 +83,12 @@ h6 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 90px 15px;
 }
 
 .container {
     display: flex;
     max-width: 1300px;
-}
-
-.spazio-consulenze {
-    margin: 90px 15px;
 }
 
 .spazio-consulenze h1 {
@@ -143,13 +138,10 @@ p {
 .spazio-cards-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: rgb(255 245 80);
-}
-
-.spazio-cards {
-    margin: 70px 15px 50px 15px;
+    width: 100%;
+    padding: 70px 15px 50px 15px;
 }
 
 .white-button {
@@ -176,11 +168,8 @@ p {
 }
 
 .cards-container {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
 }
 
 .cards {
@@ -188,14 +177,9 @@ p {
     height: 450px;
     display: flex;
     flex-direction: column;
-}
-
-.cards h6 {
-    margin: 50px 35px 30px 35px;
-}
-
-.cards p {
-    margin: 0 35px 0px 35px;
+    padding: 15px 35px 0 35px;
+    gap: 30px;
+    width: 100%;
 }
 
 .dark {
@@ -288,6 +272,7 @@ p {
         font-weight: 400;
         list-style-type: none;
         margin-right: 15px;
+        color: black;
     }
 
     .home {
