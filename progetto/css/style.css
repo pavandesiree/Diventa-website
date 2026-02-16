@@ -93,7 +93,7 @@ h6 {
 }
 
 .spazio-consulenze {
-    margin: 90px 35px;
+    margin: 90px 15px;
 }
 
 .spazio-consulenze h1 {
@@ -110,7 +110,7 @@ p {
     padding-bottom: 15px;
 }
 
-.button {
+.yellow-button {
     border-radius: 9999px;
     display: inline-block;
     background-color: rgb(255 245 80);
@@ -124,14 +124,13 @@ p {
     transition: all .15s cubic-bezier(.4, 0, .2, 1);
 }
 
-.button:hover {
+.yellow-button:hover {
     filter: brightness(90%);
 }
 
 .ape-container {
-    width: 375px;
+    width: 100%;
     height: 720px;
-    overflow: hidden;
 }
 
 .ape {
@@ -139,6 +138,79 @@ p {
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.spazio-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255 245 80);
+}
+
+.spazio-cards {
+    margin: 70px 15px 50px 15px;
+}
+
+.white-button {
+    background-color: white;
+    color: black;
+    border-radius: 9999px;
+    display: inline-block;
+    font-weight: 400;
+    padding: 18px 1.5rem;
+    font-size: 16px;
+    letter-spacing: -.32px;
+    line-height: 120%;
+    text-decoration: inherit;
+    transition: all .15s cubic-bezier(.4, 0, .2, 1);
+    margin: 25px 0;
+}
+
+.white-button:hover {
+    filter: brightness(90%);
+}
+
+.spazio-cards h3 {
+    margin-bottom: 30px;
+}
+
+.cards-container {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards h6 {
+    margin: 50px 35px 30px 35px;
+}
+
+.cards p {
+    margin: 0 35px 0px 35px;
+}
+
+.dark {
+    background-color: #222333;
+    color: white;
+}
+
+.light {
+    color: #222333;
+    background-color: white;
+}
+
+.cards img {
+    width: 300px;
+    align-self: center;
 }
 
 /* Tablet */
@@ -175,6 +247,12 @@ p {
     .button {
         font-size: 16px;
         letter-spacing: -.32px;
+    }
+
+    .couple-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
     }
 }
 
