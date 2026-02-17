@@ -195,7 +195,9 @@ p {
 }
 
 .spazio-collaborazioni-container {
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Tablet */
@@ -295,5 +297,9 @@ p {
     .button {
         font-size: 18px;
         letter-spacing: -.36px;
+    }
+
+    .spazio-cards-container {
+        padding-top: 100px;
     }
 }
