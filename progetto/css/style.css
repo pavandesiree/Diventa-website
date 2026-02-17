@@ -197,9 +197,16 @@ p {
 }
 
 .spazio-collaborazioni-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.collaborazioni {
+    background-color: black;
+    width: 100%;
+    height: 100px;
 }
 
 /* Tablet */
