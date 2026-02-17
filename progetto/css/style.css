@@ -190,7 +190,7 @@ p {
 }
 
 .cards img {
-    width: 300px;
+    width: 250px;
     align-self: center;
 }
 
@@ -240,6 +240,10 @@ p {
         display: flex;
         flex-direction: row;
         gap: 10px;
+    }
+
+    .cards {
+        width: 350px;
     }
 }
 
@@ -301,5 +305,29 @@ p {
 
     .spazio-cards-container {
         padding-top: 100px;
+    }
+
+    .title-button {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 0;
+    }
+
+    .white-button {
+        width: 210px;
+    }
+
+    .spazio-cards-container h3{
+        width: 800px;
+    }
+
+    .cards {
+        width: 300px;
+    }
+
+    .cards-container {
+        display: flex;
+        gap: 10px;
     }
 }
