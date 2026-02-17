@@ -142,6 +142,7 @@ p {
     background-color: rgb(255 245 80);
     width: 100%;
     padding: 70px 15px 50px 15px;
+    color: #222333;
 }
 
 .white-button {
@@ -173,13 +174,11 @@ p {
 }
 
 .cards {
-    width: 100%;
     height: 450px;
     display: flex;
     flex-direction: column;
     padding: 15px 35px 0 35px;
     gap: 30px;
-    width: 100%;
 }
 
 .dark {
@@ -188,7 +187,6 @@ p {
 }
 
 .light {
-    color: #222333;
     background-color: white;
 }
 
