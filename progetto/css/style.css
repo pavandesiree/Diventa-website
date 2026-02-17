@@ -194,6 +194,10 @@ p {
     align-self: center;
 }
 
+.spazio-collaborazioni-container {
+    background-color: aqua;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
     h1 {
