@@ -137,7 +137,7 @@ p {
     object-position: center;
 }
 
-.spazio-cards-container {
+.offering-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,7 +165,7 @@ p {
     filter: brightness(90%);
 }
 
-.spazio-cards h3 {
+.offering-section h3 {
     margin-bottom: 30px;
 }
 
@@ -196,14 +196,14 @@ p {
     align-self: center;
 }
 
-.spazio-collaborazioni-container {
+.partner-section {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px 0;
 }
 
-.collaborazioni {
+.partner {
     background-color: black;
     width: 100%;
     height: 100px;
@@ -305,7 +305,7 @@ p {
         letter-spacing: -0.36px;
     }   
 
-    .spazio-cards-container {
+    .offering-section {
         padding-top: 100px;
     }   
 
@@ -320,7 +320,7 @@ p {
         width: 210px;
     }   
 
-    .spazio-cards-container h3 {
+    .offering-section h3 {
         width: 800px;
     }   
 
