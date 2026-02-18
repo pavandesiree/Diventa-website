@@ -10,7 +10,7 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../img/hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/hero_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -124,7 +124,7 @@ p {
     letter-spacing: -0.28px;
 }
 
-.yellow-button:hover {
+.button:hover {
     filter: brightness(90%);
 }
 
@@ -156,10 +156,6 @@ p {
     font-size: 16px;
     letter-spacing: -0.32px;
     margin: 25px 0;
-}
-
-.white-button:hover {
-    filter: brightness(90%);
 }
 
 .offering-section h3 {
@@ -209,7 +205,7 @@ p {
 }
 
 .value-propotition {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../img/value_propotition_hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/value_propotition_hero_background.png");
     height: 540px;
     text-align: center;
     position: relative;
@@ -277,13 +273,23 @@ h2 {
 
     .value-propotition {
         height: 425px;
-        padding: 120px 48px;
+        padding: 120px 48px 213px 48px;
     }
 
     .value-propotition .button {
         position: absolute;
-        top: 75%;
+        top: 70%;
         left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 98%;
+    }
+
+    .value-propotition .container {
+        max-width: 500px;
     }
 }
 
@@ -341,7 +347,11 @@ h2 {
     .button {
         font-size: 18px;
         letter-spacing: -0.36px;
-    }   
+    }
+
+    .white {
+        width: 226px;
+    }
 
     .offering-section {
         padding-top: 100px;
@@ -350,13 +360,8 @@ h2 {
     .title-button {
         display: flex;
         align-items: center;
-        gap: 20px;
         padding: 50px 0;
-    }   
-
-    .white-button {
-        width: 210px;
-    }   
+    }     
 
     .offering-section h3 {
         width: 800px;
@@ -373,5 +378,20 @@ h2 {
 
     .partner-section img {
         width: 950px;
+    }
+
+    .value-propotition {
+        height: 540px;
+        padding: 120px 124px 262px 124px;
+    }
+
+    h2 {
+        font-size: 64px;
+        letter-spacing: -2.56px;
+        line-height: 100%;
+    }
+
+    .value-propotition .container {
+        max-width: 900px;
     }
 }
