@@ -38,7 +38,7 @@ header {
     z-index: 1000;
 }
 
-.menu-desktop {
+header .menu-desktop {
     display: none;
 }
 
@@ -292,6 +292,11 @@ footer p {
     padding-bottom: 0;
 }
 
+footer img {
+    height: 50px;
+    width: 155px;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
     h1 {
@@ -427,7 +432,7 @@ footer p {
         display: flex;
         align-items: center;
         padding: 50px 0;
-    }     
+    }
 
     .offering-section h3 {
         width: 800px;
@@ -477,13 +482,8 @@ footer p {
     }
 
     footer nav {
-        margin-left: auto;
+        padding-left: 200px;
         align-self: flex-end;
-    }
-
-    footer img {
-        height: 50px;
-        width: 155px;
     }
 
     .info {
