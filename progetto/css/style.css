@@ -23,6 +23,7 @@ body {
 }
 
 header {
+    height: 90px;
     background-color: rgb(255 245 80);
     border-radius: 9999px;
     padding: 0.5rem 2rem;
@@ -30,7 +31,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
     position: fixed;
     top: 0px;
     left: 15px;
@@ -38,7 +38,16 @@ header {
     z-index: 1000;
 }
 
-header .menu-desktop {
+header .dark-logo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+header .menu-mobile {
+    height: 18px;
+}
+
+.menu-desktop {
     display: none;
 }
 
@@ -387,17 +396,16 @@ footer img {
         display: none;
     }   
 
-    .menu-desktop {
+    body .menu-desktop {
         display: inline;
         font-size: 16px;
         letter-spacing: -0.39px;
         line-height: 95%;
         font-weight: 400;
         margin-right: 15px;
-        color: black;
     }
 
-    .home {
+    .underlined {
         text-decoration: underline;
     }   
 
@@ -475,12 +483,9 @@ footer img {
 
     .title-nav {
         display: flex;
-        flex-direction: row;
-    }
-
-    footer nav {
-        padding-left: 200px;
-        align-self: flex-end;
+        justify-content: space-between;
+        width: 100%;
+        align-items: end;
     }
 
     .info {
