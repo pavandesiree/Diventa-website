@@ -10,14 +10,14 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../img/hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/hero_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 638px;
+    height: 800px;
     padding: 250px 15px 40px 15px;
     color: white;
 }
@@ -38,8 +38,12 @@ header {
     z-index: 1000;
 }
 
-.menu-desktop {
+header .menu-desktop {
     display: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 h1 {
@@ -108,13 +112,17 @@ p {
     padding-bottom: 15px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .button {
     width: fit-content;
     border-radius: 9999px;
     display: inline-block;
     padding: 18px 1.5rem;
     line-height: 120%;
-    text-decoration: inherit;
     transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -126,7 +134,7 @@ p {
     letter-spacing: -0.28px;
 }
 
-.yellow-button:hover {
+.button:hover {
     filter: brightness(90%);
 }
 
@@ -158,10 +166,6 @@ p {
     font-size: 16px;
     letter-spacing: -0.32px;
     margin: 25px 0;
-}
-
-.white-button:hover {
-    filter: brightness(90%);
 }
 
 .offering-section h3 {
@@ -213,7 +217,7 @@ p {
 }
 
 .value-propotition {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../img/value_propotition_hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/value_propotition_hero_background.png");
     height: 540px;
     text-align: center;
     position: relative;
@@ -234,6 +238,67 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+footer {
+    height: 1141px;
+    background-color: #222333;
+    color: white;
+    padding: 56px 48px;
+}
+
+footer h4 {
+    padding-top: 15px;
+    padding-bottom: 120px;
+}
+
+footer nav ul li {
+    padding-bottom: 24px;
+}
+
+footer nav {
+    padding-bottom: 125px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    width: 100%;
+    margin: 10px auto;
+}
+
+h5 {
+    font-size: 12px;
+    letter-spacing: -.24px;
+    font-family: Geist;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+    padding-bottom: 5px;
+}
+
+footer p {
+    margin-block-end: 0;
+    padding-bottom: 5px;
+}
+
+.opacity {
+    padding-right: 8px;
+    opacity: .7;
+}
+
+.address {
+    margin: 54px 0;
+}
+
+.address p {
+    padding-bottom: 0;
+}
+
+footer img {
+    height: 50px;
+    width: 155px;
 }
 
 /* Tablet */
@@ -275,58 +340,70 @@ h2 {
 
     .value-propotition {
         height: 425px;
-        padding: 120px 48px;
+        padding: 120px 48px 213px 48px;
     }
 
     .value-propotition .button {
         position: absolute;
-        top: 75%;
+        top: 70%;
         left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 98%;
+    }
+
+    .value-propotition .container {
+        max-width: 500px;
+    }
+
+    footer {
+        height: 1161px;
+        padding-left: 56px;
     }
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
     h1 {
-      font-size: 72px;
-      letter-spacing: -2.88px;
-      line-height: 100%;
+        font-size: 72px;
+        letter-spacing: -2.88px;
+        line-height: 100%;
     }   
 
     .hero h1 {
-      font-size: 104px;
-      letter-spacing: -2.08px;
+        font-size: 104px;
+        letter-spacing: -2.08px;
     }   
 
     h3 {
-      font-size: 32px;
-      line-height: 100%;
+        font-size: 32px;
+        line-height: 100%;
     }   
 
     .menu-mobile {
-      display: none;
+        display: none;
     }   
 
     .menu-desktop {
-      display: inline;
-      font-size: 16px;
-      letter-spacing: -0.39px;
-      line-height: 95%;
-      color: inherit;
-      text-decoration: none;
-      font-weight: 400;
-      list-style-type: none;
-      margin-right: 15px;
-      color: black;
-    }   
+        display: inline;
+        font-size: 16px;
+        letter-spacing: -0.39px;
+        line-height: 95%;
+        font-weight: 400;
+        margin-right: 15px;
+        color: black;
+    }
 
     .home {
-      text-decoration: underline;
+        text-decoration: underline;
     }   
 
     p {
-      font-size: 18px;
-      letter-spacing: -0.36px;
+        font-size: 18px;
+        letter-spacing: -0.36px;
     }
 
     .paragraphs-container {
@@ -339,7 +416,11 @@ h2 {
     .button {
         font-size: 18px;
         letter-spacing: -0.36px;
-    }   
+    }
+
+    .white {
+        width: 226px;
+    }
 
     .offering-section {
         padding-top: 100px;
@@ -348,13 +429,8 @@ h2 {
     .title-button {
         display: flex;
         align-items: center;
-        gap: 20px;
         padding: 50px 0;
-    }   
-
-    .white-button {
-        width: 210px;
-    }   
+    }
 
     .offering-section h3 {
         width: 800px;
@@ -370,5 +446,50 @@ h2 {
 
     .partner-section img {
         width: 950px;
+    }
+
+    .value-propotition {
+        height: 540px;
+        padding: 120px 124px 262px 124px;
+    }
+
+    h2 {
+        font-size: 64px;
+        letter-spacing: -2.56px;
+        line-height: 100%;
+    }
+
+    .value-propotition .container {
+        max-width: 900px;
+    }
+
+    footer {
+        height: 584px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .menu-desktop {
+        color: white;
+    }
+
+    .title-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer nav {
+        padding-left: 200px;
+        align-self: flex-end;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .address {
+        margin: 0;
     }
 }
