@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 800px;
-    padding: 250px 15px 40px 15px;
+    padding: 250px 15px 0 15px;
     color: white;
 }
 
@@ -40,7 +40,7 @@ header {
 
 header .dark-logo {
     height: 50px;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 
 header .menu-mobile {
@@ -271,9 +271,13 @@ footer nav {
 
 hr {
     border: none;
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(201, 196, 71);
     width: 100%;
     margin: 10px auto;
+}
+
+footer hr {
+    border-top: 1px solid white;
 }
 
 h5 {
@@ -308,6 +312,41 @@ footer p {
 footer img {
     height: 50px;
     width: 155px;
+}
+
+.contacts .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/contacts_hero_background.png");
+}
+
+.contacts .editorial-intro {
+    background-color: rgb(255 245 80);
+    color: #222333;
+}
+
+.number {
+    padding-top: 50px;
+    font-size: 120px;
+    line-height: 109%;
+    letter-spacing: 6px;
+    font-weight: 200;
+}
+
+.numbers {
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-bottom: 100px;
+}
+
+.contacts .value-propotition {
+    background-color: rgb(255 245 80);
+    background-image: none;
+    color: #222333;
+}
+
+.contacts .yellow {
+    background-color: white;
 }
 
 /* Tablet */
