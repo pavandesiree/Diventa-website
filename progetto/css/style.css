@@ -90,6 +90,8 @@ h6 {
     display: flex;
     max-width: 1300px;
     flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .editorial-intro h1 {
@@ -167,8 +169,10 @@ p {
 }
 
 .cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     width: 100%;
-    padding: 1rem 0;
 }
 
 .cards {
@@ -259,16 +263,10 @@ h2 {
     .button {
         font-size: 16px;
         letter-spacing: -0.32px;
-    }   
-
-    .couple-cards {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }   
+    }
 
     .cards {
-        width: 350px;
+        height: 461px;
     }
 
     .partner-section img {
@@ -336,7 +334,7 @@ h2 {
         justify-content: space-between;
         align-items: top;
         gap: 50px;
-    }   
+    }
 
     .button {
         font-size: 18px;
@@ -362,13 +360,12 @@ h2 {
         width: 800px;
     }   
 
-    .cards {
-        width: 300px;
-    } 
-
     .cards-container {
-        display: flex;
-        gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cards {
+        height: 411px;
     }
 
     .partner-section img {
