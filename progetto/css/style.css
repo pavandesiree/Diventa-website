@@ -189,14 +189,14 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    width: 100%;
 }
 
 .cards {
     height: 450px;
+    min-width: 150px;
     display: flex;
     flex-direction: column;
-    padding: 15px 35px 0 35px;
+    padding: 15px 15px 0 15px;
     gap: 30px;
 }
 
@@ -210,23 +210,43 @@ a {
 }
 
 .cards img {
-    width: 250px;
+    width: 150px;
     align-self: center;
+    margin-top: auto;
+    margin-bottom: 75px;
 }
 
 .partner-section {
+    height: 315px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px 0;
+    overflow: hidden;
 }
 
 .partner-section h3 {
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.partner-section img {
-    width: 325px;
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 120px;
+    animation: scroll 40s linear infinite;
+}
+
+.marquee-track img {
+    width: 950px;
+    width: auto;
+    flex-shrink: 0;
 }
 
 .value-propotition {
@@ -352,6 +372,15 @@ footer img {
     background-color: white;
 }
 
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50% - 60px));
+    }
+}
+
 /* Tablet */
 @media (min-width: 768px) {
     h1 {
@@ -385,10 +414,6 @@ footer img {
         height: 461px;
     }
 
-    .partner-section img {
-        width: 600px;
-    }
-
     .value-propotition {
         height: 425px;
         padding: 120px 48px 213px 48px;
@@ -413,6 +438,10 @@ footer img {
     footer {
         height: 1161px;
         padding-left: 56px;
+    }
+
+    .cards img {
+        width: 250px;
     }
 }
 
@@ -494,10 +523,6 @@ footer img {
         height: 411px;
     }
 
-    .partner-section img {
-        width: 950px;
-    }
-
     .value-propotition {
         height: 540px;
         padding: 120px 124px 262px 124px;
@@ -565,5 +590,9 @@ footer img {
     .contacts .paragraphs-container {
         justify-content: start;
         gap: 400px;
+    }
+
+    .cards img {
+        width: 200px;
     }
 }
