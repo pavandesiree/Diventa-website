@@ -121,6 +121,10 @@ p {
     padding-bottom: 15px;
 }
 
+.contacts p {
+    padding-bottom: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -323,16 +327,15 @@ footer img {
     color: #222333;
 }
 
+.numbers {
+    padding: 50px 0;
+}
+
 .number {
-    padding-top: 50px;
     font-size: 120px;
     line-height: 109%;
     letter-spacing: 6px;
     font-weight: 200;
-}
-
-.numbers {
-    margin-bottom: 50px;
 }
 
 .title {
@@ -542,13 +545,25 @@ footer img {
     }
 
     .title-paragraph {
+        width: 400px;
         display: flex;
         flex-direction: column;
+        align-self: center;
+        margin-bottom: 15px;
     }
 
     .numbers {
+        height: 450px;
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .contacts h4 {
+        width: 300px;
+    }
+
+    .contacts .paragraphs-container {
+        justify-content: start;
+        gap: 400px;
     }
 }
