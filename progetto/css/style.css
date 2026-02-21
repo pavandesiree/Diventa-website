@@ -536,4 +536,19 @@ footer img {
     .address {
         margin: 0;
     }
+
+    .number {
+        font-size: 296px;
+    }
+
+    .title-paragraph {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .numbers {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
