@@ -43,11 +43,11 @@ header .dark-logo {
     margin-left: 18px;
 }
 
-header .menu-mobile {
+.menu-mobile {
     height: 18px;
 }
 
-.menu-desktop {
+header .menu-desktop {
     display: none;
 }
 
