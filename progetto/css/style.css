@@ -448,6 +448,10 @@ footer img {
     padding-top: 50px;
 }
 
+.space {
+    padding-top: 60px;
+}
+
 @keyframes scroll {
     0% {
         transform: translateX(0);
