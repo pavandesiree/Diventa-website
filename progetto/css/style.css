@@ -112,6 +112,14 @@ h6 {
     margin-block-end: 0.67em;
 }
 
+.offering-section h1 {
+    margin-block-end: 10px;
+}
+
+.homepage .offering-section h1 {
+    margin-block-end: 0;
+}
+
 p {
     font-size: 16px;
     font-weight: 400;
@@ -167,9 +175,12 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(255 245 80);
     padding: 70px 15px 50px 15px;
     color: #222333;
+}
+
+.homepage .offering-section {
+    background-color: rgb(255 245 80);
 }
 
 .white {
@@ -404,6 +415,19 @@ footer img {
 
 .case-studies .value-propotition .container {
     max-width: 1300px;
+}
+
+.expertise .cards-container {
+    margin-top: 30px;
+}
+
+.expertise .cards {
+    background-color: rgb(255 245 80);
+    height: 274px;
+}
+
+.cards h2 {
+    margin: auto 0 15px 0;
 }
 
 @keyframes scroll {
