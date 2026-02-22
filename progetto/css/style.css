@@ -382,6 +382,7 @@ footer img {
 
 .editorial-intro .normal-case {
     text-transform: none;
+    color: #0009;
     margin-bottom: 15px;
 }
 
@@ -391,6 +392,18 @@ footer img {
 
 .solutions .value-propotition {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/solutions_value_propotition_background.jpg");
+}
+
+.case-studies .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/case_studies_hero_background.png");
+}
+
+.case-studies .value-propotition {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/case_studies_value_propotition_background.png");
+}
+
+.case-studies .value-propotition .container {
+    max-width: 1300px;
 }
 
 @keyframes scroll {
