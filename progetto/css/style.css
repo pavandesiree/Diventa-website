@@ -372,6 +372,27 @@ footer img {
     background-color: white;
 }
 
+.expertise .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/expertise_hero_background.png");
+}
+
+.expertise .value-propotition {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/expertise_value_propotition_hero.jpg");
+}
+
+.editorial-intro .normal-case {
+    text-transform: none;
+    margin-bottom: 15px;
+}
+
+.solutions .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/solutions_hero_background.png");
+}
+
+.solutions .value-propotition {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/solutions_value_propotition_background.jpg");
+}
+
 @keyframes scroll {
     0% {
         transform: translateX(0);
