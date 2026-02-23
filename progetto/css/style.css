@@ -439,17 +439,13 @@ footer img {
     overflow: hidden;
 }
 
-.img-cards img {
+.img-cards img, .photo-card img {
     width: 100%;
     display: block;
 }
 
-.photos {
-    padding-top: 50px;
-}
-
 .space {
-    padding-top: 60px;
+    padding-top: 55px;
 }
 
 .solutions h3 {
@@ -459,6 +455,22 @@ footer img {
 
 .solutions .cards {
     gap: 0;
+}
+
+.photo-card {
+    overflow: hidden;
+    padding: 100px 0 56px 0;
+    width: 100%;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.two {
+    display: none;
 }
 
 @keyframes scroll {
@@ -537,7 +549,7 @@ footer img {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .expertise .photos {
+    .expertise .three {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -709,11 +721,11 @@ footer img {
         font-weight: 600;
     }
 
-    .expertise .cards-container {
+    .expertise .cards-container, .solutions .cards-container {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .expertise .photos {
+    .expertise .three {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -721,7 +733,28 @@ footer img {
         height: 265px;
     }
 
-    .solution .cards-container {
+    .solutions .three {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .two {
+        display: flex;
+        gap: 10px;
+        padding: 100px 0 56px 0;
+    }
+
+    .two-card {
+        flex: 1;
+        height: 404px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .two-card img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
     }
 }
