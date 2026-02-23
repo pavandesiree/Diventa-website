@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/hero_background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -262,7 +262,7 @@ a {
 }
 
 .value-propotition {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/value_propotition_hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/value_propotition_hero_background.webp");
     height: 540px;
     text-align: center;
     position: relative;
@@ -351,7 +351,7 @@ footer img {
 }
 
 .contacts .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/contacts_hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/contacts_hero_background.webp");
 }
 
 .contacts .editorial-intro {
@@ -385,11 +385,11 @@ footer img {
 }
 
 .expertise .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/expertise_hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/expertise_hero_background.webp");
 }
 
 .expertise .value-propotition {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/expertise_value_propotition_hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/expertise_value_propotition_hero.webp");
 }
 
 .editorial-intro .normal-case {
@@ -399,19 +399,19 @@ footer img {
 }
 
 .solutions .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/solutions_hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/solutions_hero_background.webp");
 }
 
 .solutions .value-propotition {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/solutions_value_propotition_background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/solutions_value_propotition_background.webp");
 }
 
 .case-studies .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/case_studies_hero_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/case_studies_hero_background.webp");
 }
 
 .case-studies .value-propotition {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/case_studies_value_propotition_background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/case_studies_value_propotition_background.webp");
 }
 
 .case-studies .value-propotition .container {
