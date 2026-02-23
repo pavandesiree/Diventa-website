@@ -454,7 +454,7 @@ footer img {
 }
 
 .solutions .cards {
-    gap: 0;
+    gap: 10px;
 }
 
 .photo-card {
@@ -471,6 +471,15 @@ footer img {
 
 .two {
     display: none;
+}
+
+.solutions .title-paragraph p {
+    margin-top: 30px;
+    padding-bottom: 0;
+}
+
+.solutions .number {
+    margin-bottom: 10px;
 }
 
 @keyframes scroll {
@@ -555,6 +564,23 @@ footer img {
 
     .img-cards {
         height: 152px;
+    }
+
+    .solutions .title-paragraph p {
+        max-width: 400px;
+    }
+
+    .solutions .number {
+        font-size: 200px;
+    }
+
+    .solutions .title-paragraph .paragraphs-container {
+        display: flex;
+        gap: 75px;
+    }
+
+    .solutions .title-paragraph .paragraphs-container p {
+        max-width: 300px;
     }
 }
 
@@ -715,7 +741,7 @@ footer img {
         line-height: 98%;
     }
 
-    .expertise h2, .solutions h2 {
+    .expertise h2, .solutions .cards h2 {
         font-size: 32px;
         line-height: 98%;
         font-weight: 600;
@@ -756,5 +782,42 @@ footer img {
         left: 0;
         width: 100%;
         height: auto;
+    }
+
+    .solutions .number {
+        font-size: 296px;
+    }
+
+    .solutions .title-paragraph .paragraphs-container {
+        display: flex;
+        gap: 75px;
+    }
+
+    .number-description {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .number-description .number {
+        flex: 0 0 auto;
+        text-align: right;
+        line-height: 1;
+    }
+
+    .number-description .title-paragraph {
+        width: 800px;
+        max-width: none;
+    }
+
+    .solutions .title-paragraph .paragraphs-container {
+        display: flex;
+        gap: 75px;
+        justify-content: flex-start;
+    }
+
+    .solutions .title-paragraph .paragraphs-container p:first-child {
+        max-width: 400px;
     }
 }
