@@ -484,24 +484,29 @@ footer img {
 }
 
 .case-studies .cards {
-    padding: 15px 0 0 0;
     display: flex;
     flex-direction: column;
+    padding: 20px 0 0 0;
+    background-color: rgb(255 245 80);
+    height: 382px;
 }
 
 .case-studies .cards h3,
 .case-studies .cards h4 {
-    padding: 0 15px;
-}
-
-.case-studies .cards img {
-    width: 100%;
-    display: block;
-    margin-top: auto;
+    padding: 0 20px;
 }
 
 .case-studies .cards img {
     height: 226px;
+    width: 100%;
+    display: block;
+    margin: auto 0 0 0;
+}
+
+.case-studies .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
 }
 
 @keyframes scroll {
@@ -603,6 +608,10 @@ footer img {
 
     .solutions .title-paragraph .paragraphs-container p {
         max-width: 300px;
+    }
+
+    .case-studies .cards-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
