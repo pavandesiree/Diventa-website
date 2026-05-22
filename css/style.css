@@ -10,6 +10,11 @@ body {
     overflow-x: hidden;
 }
 
+.student {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url("../img/hero_background.webp");
     background-repeat: no-repeat;
